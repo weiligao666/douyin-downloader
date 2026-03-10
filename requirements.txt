@@ -1,0 +1,19 @@
+# 抖音视频下载器依赖
+
+## 必需依赖
+requests>=2.25.0
+playwright>=1.30.0
+
+## 安装后还需执行:
+# playwright install chromium
+
+## 开发依赖
+# pytest>=6.0.0         # 测试框架
+# black>=21.0.0         # 代码格式化
+# flake8>=3.9.0         # 代码检查
+
+## 安装命令
+# pip install -r requirements.txt
+
+## 最小安装（仅必需依赖）
+# pip install requests

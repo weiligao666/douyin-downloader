@@ -1,0 +1,36 @@
+# ==== 敏感文件（绝对不上传）====
+cookie.txt
+storage_state.json
+
+# ==== 下载的视频和临时文件 ====
+*.mp4
+*.part
+*.ts
+
+# ==== Python ====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# ==== 诊断/调试临时脚本 ====
+_diag.py
+_debug_*.html
+_diagnostic_*.json
+
+# ==== 系统文件 ====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==== IDE ====
+.vscode/
+.idea/
+*.swp
+*.swo
