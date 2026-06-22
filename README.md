@@ -29,8 +29,8 @@
 ### 1. 克隆或下载本仓库
 
 ```bash
-git clone <仓库地址>
-cd "Web Crawler douyin"
+git clone https://github.com/weiligao666/douyin-downloader.git
+cd douyin-downloader
 ```
 
 ### 2. 安装Python依赖
@@ -213,7 +213,7 @@ with open('video_urls.txt', 'r', encoding='utf-8') as f:
 ## 项目结构
 
 ```
-Web Crawler douyin/
+douyin-downloader/
 ├── douyin_downloader.py      # 主程序
 ├── cookie.txt                # Cookie 文件（可选，提升成功率）
 ├── QUICK_START.md            # 快速开始
@@ -351,7 +351,7 @@ logging.basicConfig(
 
 ## 许可证
 
-本项目仅供学习和研究使用。请遵守相关法律法规和抖音的服务条款。
+本项目基于 MIT License 开源，详见 [LICENSE](LICENSE)。请仅在合法授权范围内使用，并遵守相关法律法规和抖音的服务条款。
 
 ## 贡献
 

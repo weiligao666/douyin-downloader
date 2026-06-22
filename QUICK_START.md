@@ -3,7 +3,7 @@
 ## 安装
 
 ```bash
-cd "Web Crawler douyin"
+cd douyin-downloader
 
 pip install requests playwright
 python -m playwright install chromium
@@ -128,7 +128,7 @@ print(info['title'], info['author'], info['duration'])
 ## 项目结构
 
 ```
-Web Crawler douyin/
+douyin-downloader/
 ├── douyin_downloader.py   # 主程序
 ├── cookie.txt             # Cookie 文件（可选，推荐配置）
 ├── requirements.txt       # 依赖列表
